@@ -4,6 +4,7 @@ import { usePatterns } from '../../hooks/usePatterns';
 import { ArrowLeft, Clock, BarChart3, Settings, CircleDollarSign } from 'lucide-react'; // Import new icon
 import { Link } from 'react-router-dom';
 import MarkdownRenderer from '../ui/MarkdownRenderer';
+import YoutubeEmbed from '../ui/YoutubeEmbed';
 
 const PatternDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -87,6 +88,8 @@ const PatternDetail = () => {
             </div>
           )}
         </div>
+
+        {pattern.youtubeId && <YoutubeEmbed youtubeId={pattern.youtubeId} />}
         
         <MarkdownRenderer content={pattern.content} />
       </div>

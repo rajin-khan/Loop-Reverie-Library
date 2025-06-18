@@ -7,10 +7,11 @@ export interface CrochetPattern {
   estimatedTime: string;
   materials: string[];
   hooks: string[];
-  content: string; // Markdown content
+  content: string;
   tags: string[];
   dateAdded: string;
   thumbnail: string; 
   imageUrls: string[]; 
-  price?: number; // NEW: Optional price field
+  price?: number;
+  youtubeId?: string; // NEW: Optional YouTube Video ID field
 }

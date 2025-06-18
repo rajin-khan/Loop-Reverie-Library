@@ -22,6 +22,7 @@ export const patterns: CrochetPattern[] = [
     thumbnail: '/images/rose-simple.jpeg',
     imageUrls: ['/images/rose-simple.jpeg'],
     price: 250,
+    youtubeId: 'TvG7wO-y85I',
     content: roseSimpleContent,
   },
   {

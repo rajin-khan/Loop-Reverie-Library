@@ -1,7 +1,7 @@
 // src/components/patterns/PatternDetail.tsx
 import { useParams } from 'react-router-dom';
 import { usePatterns } from '../../hooks/usePatterns';
-import { ArrowLeft, Clock, BarChart3, Settings, Scissors, CircleDollarSign } from 'lucide-react'; // Import new icon
+import { ArrowLeft, Clock, BarChart3, Settings, CircleDollarSign } from 'lucide-react'; // Import new icon
 import { Link } from 'react-router-dom';
 import MarkdownRenderer from '../ui/MarkdownRenderer';
 

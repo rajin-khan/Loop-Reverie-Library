@@ -38,7 +38,7 @@ export const patterns: CrochetPattern[] = [
     thumbnail: '/images/rose-special.jpeg',
     imageUrls: ['/images/rose-special.jpeg'],
     price: 350,
-    youtubeId: 'mmzbHbLcUPs&t=1117s',
+    youtubeId: 'mmzbHbLcUPs',
     content: roseSpecialContent,
   },
   {
@@ -54,7 +54,7 @@ export const patterns: CrochetPattern[] = [
     thumbnail: '/images/lily.jpeg',
     imageUrls: ['/images/lily.jpeg'],
     price: 450,
-    youtubeId: 'bnmQs86f8dE&t=368s',
+    youtubeId: 'bnmQs86f8dE',
     content: lilyContent,
   },
   {
@@ -86,7 +86,7 @@ export const patterns: CrochetPattern[] = [
     thumbnail: '/images/tulip-amigurumi.jpeg',
     imageUrls: ['/images/tulip-amigurumi.jpeg'],
     price: 250,
-    youtubeId: '33GQm50lMYQ&t=10s',
+    youtubeId: '33GQm50lMYQ',
     content: tulipAmigurumiContent,
   }
 ];

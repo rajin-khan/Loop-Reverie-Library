@@ -79,7 +79,7 @@ export const patterns: CrochetPattern[] = [
     id: 'forget-me-not',
     title: 'Forget-Me-Not',
     difficulty: 'Beginner',
-    flowerType: 'Filler Flower',
+    flowerType: 'Filler',
     estimatedTime: '< 30 m',
     materials: ['Weight 4 yarn', '18-gauge floral wire', 'Glue'],
     hooks: ['3.75mm'],

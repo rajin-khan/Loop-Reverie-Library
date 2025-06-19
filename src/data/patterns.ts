@@ -6,6 +6,8 @@ import lilyContent from '../patterns/markdown/lily.md?raw';
 import lavenderContent from '../patterns/markdown/lavender.md?raw';
 import roseSpecialContent from '../patterns/markdown/rose-special.md?raw';
 import roseSimpleContent from '../patterns/markdown/rose-simple.md?raw';
+import babysBreathContent from '../patterns/markdown/babys-breath.md?raw';
+import forgetMeNotContent from '../patterns/markdown/forget-me-not.md?raw';
 
 export const patterns: CrochetPattern[] = [
 
@@ -24,6 +26,22 @@ export const patterns: CrochetPattern[] = [
     price: 250,
     youtubeId: 'TvG7wO-y85I',
     content: roseSimpleContent,
+  },
+  {
+    id: 'babys-breath',
+    title: 'Baby\'s Breath',
+    difficulty: 'Beginner',
+    flowerType: 'Filler',
+    estimatedTime: '< 1 h',
+    materials: ['4-ply milk cotton yarn', 'Craft wire'],
+    hooks: ['2.5mm'],
+    tags: ['babys-breath', 'filler', 'bouquet', 'beginner', 'quick'],
+    dateAdded: '2024-05-23',
+    thumbnail: '/images/bbreath.jpeg',
+    imageUrls: ['/images/bbreath.jpeg'],
+    price: 200,
+    youtubeId: 'RgJvZER-qwA',
+    content: babysBreathContent,
   },
   {
     id: 'rose-special',
@@ -56,6 +74,22 @@ export const patterns: CrochetPattern[] = [
     price: 450,
     youtubeId: 'bnmQs86f8dE',
     content: lilyContent,
+  },
+  {
+    id: 'forget-me-not',
+    title: 'Forget-Me-Not',
+    difficulty: 'Beginner',
+    flowerType: 'Filler Flower',
+    estimatedTime: '< 30 m',
+    materials: ['Weight 4 yarn', '18-gauge floral wire', 'Glue'],
+    hooks: ['3.75mm'],
+    tags: ['forget-me-not', 'filler', 'bouquet', 'beginner', 'quick', 'cluster'],
+    dateAdded: '2024-05-24',
+    thumbnail: '/images/fgmn.jpeg',
+    imageUrls: ['/images/fgmn.jpeg'],
+    price: 250, // You can adjust this price as needed
+    youtubeId: 'f86av7gWTd8',
+    content: forgetMeNotContent,
   },
   {
     id: 'lavender',

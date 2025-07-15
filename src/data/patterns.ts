@@ -10,21 +10,21 @@ import babysBreathContent from '../patterns/markdown/babys-breath.md?raw';
 import forgetMeNotContent from '../patterns/markdown/forget-me-not.md?raw';
 
 export const patterns: CrochetPattern[] = [
-
+    
   {
     id: 'rose-simple',
     title: 'Rose',
     difficulty: 'Beginner',
-    flowerType: 'Basic',
+    flowerType: 'Layered Rolled Rose',
     estimatedTime: '< 1 h',
-    materials: ['Yarn'],
-    hooks: ['(not specified)'],
-    tags: ['rose', 'beginner', 'quick', 'rolled'],
-    dateAdded: '2024-05-22',
+    materials: ['Weight 4 acrylic yarn', 'Bamboo skewer', 'Hot glue'],
+    hooks: ['4.5mm'],
+    tags: ['rose', 'beginner', 'quick', 'rolled', 'layered'],
+    dateAdded: '2024-05-27', // Updated date
     thumbnail: '/images/rose-simple.jpeg',
     imageUrls: ['/images/rose-simple.jpeg'],
     price: 250,
-    youtubeId: 'TvG7wO-y85I',
+    youtubeId: 'wjvJ5w9dsrw',
     content: roseSimpleContent,
   },
   {
